@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Login</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+	
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<br/>
+	<br/>
+	<br/>
+	<div class="container w-50 p-3 border-success border" >
+		<h1 style="color:rgba(28,113,114,1.00)" align="center">Log in</h1>
+		<br/>
+		<form action="/" method="post" class="row g-3">
+		<div class="form-floating mb-3">
+            <input type="email" class="form-control" name="email" placeholder="name@example.com">
+                      <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating col-12">
+            <input type="password" class="form-control"  name="password" placeholder="Password">
+                  <label for="floatingPassword">Password</label>
+       </div>
+			
+			<div class="col-6 form-check"><input class="form-check-input" type="checkbox" value="" name="remember">
+  <label class="form-check-label" for="flexCheckDefault">
+    Remember Password?
+  </label></div>
+			<div class="col-5"></div>
+			<div class="col-4"></div>
+			 <div class="col-8">
+                 <button class="btn btn-success" type="submit" style="width: 150px">Log in</button>
+             </div>
+			<br/>
+			<div class="col-3"></div>
+			 <div class="col-9">
+                 <button class="btn btn-success" type="button" style="width: 250px" onclick="javascript:window.location.href='/github'">Log in with GitHub</button>
+             </div>
+			<br/>
+			<div class="col-3"></div>
+			 <div class="col-9">
+                 <a href="/register" style="margin-left: 30px; color:rgba(28,113,114,1.00);" >Not have? Jion us now!</a>
+             </div>
+		</form>
+	</div>
+</body>
+</html>
